@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap");
+@font-face {
+  font-family: DaysOne;
+  src: url("./DaysOne-Regular.ttf");
+}
+
+.numbersWrapper {
+  display: flex;
+  justify-content: center;
+}
+.number {
+    font-family: Mulish;
+    border-radius: 13px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  max-width: 87vw;
+}
+
+.backroundImage {
+  display: block;
+  width: 100%;
+}
+
+.numberBody {
+    background: #000000a6;
+    border-radius: 13px;
+  color: #fff;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  justify-content: space-evenly;
+}
+
+.topRow {
+  gap: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bottomRow {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 3.7vw;
+  /* height: 50%; */
+}
+
+.header{
+    font-family: DaysOne;
+    font-size: 2.8vw;
+}
+
+.row{
+    display: flex;
+    
+    justify-content: space-evenly;
+}
+
+.infoItem{
+    display: flex;
+    font-size: 1.7vw;
+    gap: 21px;
+}
+
+.icon{
+    height: fit-content;
+}
+
+.itemContent{
+    height: fit-content;
+}
+.iconImg{
+    display: block;
+    width: 4.2vw;
+}
+.price{
+    font-size: 1.9vw;
+}
+
+.rowButton.booking{
+    padding: 0.8vw;
+    font-size: 1.8vw;
+    border: 1px solid #aeaeae;
+    border-radius: 13px;
+}
+
+.rowButton.about{
+    font-size: 1.8vw;
+    border: 1px solid #aeaeae;
+    padding: 1.9vw 3.7vw;
+    border-radius: 13px;
+}
+
+.rowButton{
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+}
